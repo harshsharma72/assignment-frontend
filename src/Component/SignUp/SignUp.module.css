@@ -1,0 +1,65 @@
+.signUpContainer {
+    max-width: 400px;
+    margin: 20px auto; /* Center the container */
+    padding: 20px;
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    background-color: #fff; /* Background color */
+  }
+  
+  .title {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below title */
+  }
+  
+  .signUpForm {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange elements in a column */
+  }
+  
+  .formGroup {
+    margin-bottom: 15px; /* Space between form groups */
+  }
+  
+  .label {
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Bold labels */
+  }
+  
+  .input {
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 4px; /* Rounded corners for inputs */
+    width: 100%; /* Full width */
+  }
+  
+  .signUpButton {
+    padding: 10px; /* Padding for the button */
+    background-color: #007bff; /* Button color */
+    color: #fff; /* Button text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer on hover */
+    font-weight: bold; /* Bold button text */
+  }
+  
+  .signUpButton:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .signUpContainer {
+      padding: 15px; /* Less padding on smaller screens */
+    }
+  
+    .input {
+      padding: 8px; /* Smaller padding for inputs */
+    }
+  
+    .signUpButton {
+      font-size: 16px; /* Larger button text */
+    }
+  }
+  
