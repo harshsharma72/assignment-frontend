@@ -33,5 +33,12 @@ The User Management Application allows users to register, log in, and manage a l
 
 ```bash
 git clone https://github.com/harshsharma72/assignment-frontend.git
-git clone https://github.com/harshsharma72/assignment-backend.git
+
+cd assignment
+npm i
+npm run dev
+
+#and for backend
+npm i
+nodemon server.js
 ```
